@@ -1,0 +1,200 @@
+
+/*---hero image---*/
+
+#spa_hero {
+    background: url(../images/spa_hero.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #spa_hero-heading-box {
+    align-self: end;
+ }
+
+ #spa-hero-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---Massage therapy---*/
+
+#massage_therapy {
+    background: url(../images/massage_therapy_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+#massage-image-box {
+    align-self: end;
+ }
+ 
+ #massage-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/* 2. ---Massage drop down---*/
+
+
+#massage-arrow label img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+ 
+ #massage-arrow input, #massage-con {
+    display: none;
+ }
+ 
+ #massage-arrow input:checked ~ #massage-con {
+    display: block;
+ }
+ 
+ #massage-arrow input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+ 
+ #massage-drop-down ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #massage-drop-down ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #massage-drop-down li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #massage-drop-down ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #massage-drop-down ul li:last-child {
+    margin-bottom: 10px;
+ }
+
+/*---Hot stones---*/
+
+ #hot_stones {
+    background: url(../images/hot_stones_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #hot-stones-box {
+    align-self: end;
+ }
+
+ #hot-stones-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---hand and foot treatments---*/
+
+#hand_foot {
+    background: url(../images/hand_foot_treatments_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #hand-foot-box {
+    align-self: end;
+ }
+
+ #hand-foot-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---Scrubs wraps & Facials---*/
+
+#scrub-wrap {
+    background: url(../images/scrubs_wraps_facials_hero_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #scrub-wrap-box {
+    align-self: end;
+ }
+
+ #scrub-wrap-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---Waxing Services---*/
+
+#wax {
+    background: url(../images/waxing_services_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #wax-box {
+    align-self: end;
+ }
+
+ #wax-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---Algonquin Spa Features---*/
+
+#features {
+    background: url(../images/spa_features_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #features-box {
+    align-self: end;
+ }
+
+ #features-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+/*---Spa Products---*/
+
+#products {
+    background: url(../images/products_mobile.jpg) no-repeat;
+    height: 200px;
+}
+
+#products-box {
+    align-self: end;
+}
+
+#products-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+/*---Policies---*/
+
+#policy {
+    background: url(../images/policies_mobile.jpg) no-repeat;
+    height: 200px;
+ }
+
+ #policy-box {
+    align-self: end;
+ }
+
+ #policy-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
