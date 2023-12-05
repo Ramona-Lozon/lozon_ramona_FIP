@@ -20,10 +20,11 @@
 
 #massage_therapy {
     background: url(../images/massage_therapy_mobile.jpg) no-repeat;
-    height: 200px;
+    height: auto;
+    min-height: 200px;
  }
 
-#massage-image-box {
+#massage-arrow {
     align-self: end;
  }
  
@@ -35,56 +36,46 @@
 
 /* 2. ---Massage drop down---*/
 
+#massage-arrow1 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
 
-#massage-arrow label img {
-    width: 20px;
-    height: 20px;
+#massage-arrow1 label img {
+    width: 10px;
+    height: 10px;
     cursor: pointer;
     transition: all .5s ease;
 } 
- 
- #massage-arrow input, #massage-con {
+
+#massage-arrow1 input, #massage-drop-down {
     display: none;
  }
  
- #massage-arrow input:checked ~ #massage-con {
+ #massage-arrow1 input:checked ~ #massage-drop-down {
     display: block;
  }
  
- #massage-arrow input:checked ~ label img {
+ #massage-arrow1 input:checked ~ label img {
     transform: rotate(90deg);
  }
- 
- #massage-drop-down ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
- }
- 
- #massage-drop-down ul li a {
-    display: block;
-    padding: 10px 0 10px 0;
-    text-align: center;
-    color: #626262;
- }
- 
- #massage-drop-down li {
-    border-bottom: 1px solid #efefef;
- }
- 
- #massage-drop-down ul li:first-child {
-    border-top: 1px solid #efefef;
- }
- 
- #massage-drop-down ul li:last-child {
-    margin-bottom: 10px;
- }
+
+#massage-drop-down {
+   font-size: 16px;
+   padding-top: 15px;
+}
 
 /*---Hot stones---*/
 
- #hot_stones {
+ #hot-stones {
     background: url(../images/hot_stones_mobile.jpg) no-repeat;
-    height: 200px;
+    height: auto;
+    min-height: 200px;
  }
 
  #hot-stones-box {
@@ -97,11 +88,47 @@
     margin-bottom: 20px;
  }
 
+ /*--hot stones drop down--*/
+ #hot-stones-box-arrow2 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#hot-stones-box-arrow2 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#hot-stones-box-arrow2 input, #hot-stones-drop-down {
+    display: none;
+ }
+ 
+ #hot-stones-box-arrow2 input:checked ~ #hot-stones-drop-down {
+    display: block;
+ }
+ 
+ #hot-stones-box-arrow2 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#hot-stones-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}
+
 /*---hand and foot treatments---*/
 
-#hand_foot {
+#hand-foot {
     background: url(../images/hand_foot_treatments_mobile.jpg) no-repeat;
-    height: 200px;
+    min-height: 200px;
+    height: auto;
  }
 
  #hand-foot-box {
@@ -113,6 +140,41 @@
     line-height: 22px;
     margin-bottom: 20px;
  }
+
+ /*--hand/foot drop down--*/
+ #hand-foot-box-arrow3 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#hand-foot-box-arrow3 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#hand-foot-box-arrow3 input, #hand-foot-drop-down {
+    display: none;
+ }
+ 
+ #hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {
+    display: block;
+ }
+ 
+ #hand-foot-box-arrow3 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#hand-foot-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}
 
 /*---Scrubs wraps & Facials---*/
 
