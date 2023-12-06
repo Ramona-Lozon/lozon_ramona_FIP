@@ -183,20 +183,30 @@
     transition: all .5s ease;
 } 
 
-#breakfast-arrow3 input, #breakfast-drop-down {
+#breakfast-arrow3 input, #breakfast-drop-down, #beverages, #food, #breakfast-menu {
     display: none;
  }
  
  #breakfast-arrow3 input:checked ~ #breakfast-drop-down {
-    display: grid;
+    display: block;
  }
 
+ #breakfast-arrow3 input:checked ~ #beverages {
+   display: block;
+}
+ #breakfast-arrow3 input:checked ~ #food {
+   display: block;
+}
+
+#breakfast-arrow3 input:checked ~ #breakfast-menu {
+  display: block;
+}
 
  #breakfast-arrow3 input:checked ~ label img {
     transform: rotate(90deg);
  }
 
-#breakfast-drop-down {
+#breakfast-drop-down, #beverages, #food, #breakfast-menu  {
    font-size: 14px;
    margin: 0px;
    width:412px;
@@ -421,6 +431,11 @@
  }
 
  /*---book now button---*/
+
 #footer-book-button {
     margin-top: 20px;
+}
+
+#book-now-footer {
+   height: 67px;
 }
