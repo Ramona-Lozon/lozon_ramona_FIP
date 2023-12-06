@@ -193,6 +193,41 @@
     margin-bottom: 20px;
  }
 
+ /*--Scrubs wraps & Facials drop down--*/
+ #scrub-wrap-box-arrow4 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#scrub-wrap-box-arrow4 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#scrub-wrap-box-arrow4 input, #scrub-wrap-drop-down {
+    display: none;
+ }
+ 
+ #scrub-wrap-box-arrow4 input:checked ~ #scrub-wrap-drop-down {
+    display: block;
+ }
+ 
+ #scrub-wrap-box-arrow4 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#scrub-wrap-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}
+
 /*---Waxing Services---*/
 
 #wax {
@@ -209,6 +244,41 @@
     line-height: 22px;
     margin-bottom: 20px;
  }
+
+ /*--Waxing Services drop down--*/
+ #wax-box-arrow5 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#wax-box-arrow5 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#wax-box-arrow5 input, #wax-box-drop-down {
+    display: none;
+ }
+ 
+ #wax-box-arrow5 input:checked ~ #wax-box-drop-down {
+    display: block;
+ }
+ 
+ #wax-box-arrow5 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#wax-box-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}
 
 /*---Algonquin Spa Features---*/
 
@@ -227,6 +297,41 @@
     margin-bottom: 20px;
  }
 
+ /*--Spa Features drop down--*/
+ #features-box-arrow6 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#features-box-arrow6 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#features-box-arrow6 input, #features-box-drop-down {
+    display: none;
+ }
+ 
+ #features-box-arrow6 input:checked ~ #features-box-drop-down {
+    display: block;
+ }
+ 
+ #features-box-arrow6 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#features-box-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}
+
 /*---Spa Products---*/
 
 #products {
@@ -242,6 +347,40 @@
     font-size: 14px;
     line-height: 22px;
     margin-bottom: 20px;
+}
+ /*--Spa Products drop down--*/
+ #products-box-arrow7 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#products-box-arrow7 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#products-box-arrow7 input, #products-box-drop-down {
+    display: none;
+ }
+ 
+ #products-box-arrow7 input:checked ~ #products-box-drop-down {
+    display: block;
+ }
+ 
+ #products-box-arrow7 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#products-box-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
 }
 
 /*---Policies---*/
@@ -260,3 +399,37 @@
     line-height: 22px;
     margin-bottom: 20px;
  }
+  /*--Policies drop down--*/
+  #policy-box-arrow8 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#policy-box-arrow8 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#policy-box-arrow8 input, #policy-box-drop-down {
+    display: none;
+ }
+ 
+ #policy-box-arrow8 input:checked ~ #policy-box-drop-down {
+    display: block;
+ }
+ 
+ #policy-box-arrow8 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#policy-box-drop-down {
+   font-size: 14px;
+   padding-top: 15px;
+}

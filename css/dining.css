@@ -1,0 +1,426 @@
+/*---hero image---*/
+
+#dining-hero {
+    background: url(../images/dining_hero.jpg) no-repeat;
+    height: auto;
+    min-height:200px;
+ }
+
+ #dining-hero-heading-box {
+    align-self: end;
+ }
+
+ #dining-hero-line p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+ }
+
+
+ /*---drinks menu---*/
+
+#drinks-menu {
+    background: url(../images/wine.jpg) no-repeat;
+    height: auto;
+    min-height: 200px;
+ }
+
+#drinks-menu-intro {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+
+}
+
+/*---Drink Menu drop down---*/
+
+#drinks-arrow1 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#drinks-arrow1 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#drinks-arrow1 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#drinks-arrow1 input, #drinks-drop-down {
+    display: none;
+ }
+ 
+ #drinks-arrow1 input:checked ~ #drinks-drop-down {
+    display: block;
+ }
+
+
+ #drinks-arrow1 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#drinks-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
+ /*---Features---*/
+
+ #features {
+    background: url(../images/baby_chef.jpg) no-repeat;
+    height: auto;
+    min-height: 200px;
+ }
+
+#features-intro {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+
+}
+
+/*---Features drop down---*/
+
+#features-arrow2 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#features-arrow2 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#features-arrow2 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#features-arrow2 input, #features-drop-down {
+    display: none;
+ }
+ 
+ #features-arrow2 input:checked ~ #features-drop-down {
+    display: block;
+ }
+
+
+ #features-arrow2 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#features-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
+ /*---Breakfast---*/
+
+ #breakfast {
+    background: url(../images/breakfast_in_bed.jpg) no-repeat;
+    height: auto;
+    min-height: 200px;
+ }
+
+#breakfast-intro {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+
+}
+
+/*---Breakfast drop down---*/
+
+#breakfast-arrow3 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#breakfast-arrow3 {
+   padding-top: 10px;
+   width: 412px;
+   margin: 10px 0px 10px 0px;
+}
+
+#breakfast-arrow3 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#breakfast-arrow3 input, #breakfast-drop-down {
+    display: none;
+ }
+ 
+ #breakfast-arrow3 input:checked ~ #breakfast-drop-down {
+    display: grid;
+ }
+
+
+ #breakfast-arrow3 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#breakfast-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   width:412px;
+   background-color: white;
+   color: black;
+   text-align:center;
+   width:auto;
+}
+
+ /*---Lunch---*/
+
+ #lunch {
+    background: url(../images/lunch.jpg) no-repeat;
+    height: auto;
+    min-height: 200px;
+ }
+
+#lunch-intro {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+
+}
+
+/*---Lunch drop down---*/
+
+#lunch-arrow4 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#lunch-arrow4 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#lunch-arrow4 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#lunch-arrow4 input, #lunch-drop-down {
+    display: none;
+ }
+ 
+ #lunch-arrow4 input:checked ~ #lunch-drop-down {
+    display: block;
+ }
+
+
+ #lunch-arrow4 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#lunch-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
+ /*---Dinner---*/
+
+ #dinner {
+    background: url(../images/lunch.jpg) no-repeat;
+    height: auto;
+    min-height: 200px;
+ }
+
+#dinner-intro {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+
+}
+
+/*---Starters drop down---*/
+
+#starters-arrow5 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#starters-arrow5 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#starters-arrow5 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#starters-arrow5 input, #starters-drop-down {
+    display: none;
+ }
+ 
+ #starters-arrow5 input:checked ~ #starters-drop-down {
+    display: block;
+ }
+
+
+ #starters-arrow5 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#starters-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
+/*---Entrees drop down---*/
+
+#entrees-arrow6 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#entrees-arrow6 {
+    padding-top: 10px;
+    margin: 10px 0px 10px 0px;
+ }
+ 
+ #entrees-arrow6 label img {
+     width: 10px;
+     height: 10px;
+     cursor: pointer;
+     transition: all .5s ease;
+ } 
+ 
+ #entrees-arrow6 input, #entrees-drop-down {
+     display: none;
+  }
+  
+  #entrees-arrow6 input:checked ~ #entrees-drop-down {
+     display: block;
+  }
+ 
+ 
+  #entrees-arrow6 input:checked ~ label img {
+     transform: rotate(90deg);
+  }
+ 
+ #entrees-drop-down {
+    font-size: 14px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    text-align:center;
+ }
+
+ /*---Desserts drop down---*/
+
+#desserts-arrow7 label {
+    background-color:#9A2018;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-size: 14px;
+   font-weight: bold;
+   align-self: end;
+   text-align: center;
+}
+
+#desserts-arrow7 {
+    padding-top: 10px;
+    margin: 10px 0px 10px 0px;
+ }
+ 
+ #desserts-arrow7 label img {
+     width: 10px;
+     height: 10px;
+     cursor: pointer;
+     transition: all .5s ease;
+ } 
+ 
+ #desserts-arrow7 input, #desserts-drop-down {
+     display: none;
+  }
+  
+  #desserts-arrow7 input:checked ~ #desserts-drop-down {
+     display: block;
+  }
+ 
+ 
+  #desserts-arrow7 input:checked ~ label img {
+     transform: rotate(90deg);
+  }
+ 
+ #desserts-drop-down {
+    font-size: 14px;
+    margin: 0px;
+    background-color: white;
+    color: black;
+    text-align:center;
+ }
+
+ /*---book now button---*/
+#footer-book-button {
+    margin-top: 20px;
+}
