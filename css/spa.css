@@ -16,15 +16,16 @@
     margin-bottom: 20px;
  }
 
+
 /*---Massage therapy---*/
 
-#massage_therapy {
+#massage-therapy {
     background: url(../images/massage_therapy_mobile.jpg) no-repeat;
     height: auto;
     min-height: 200px;
  }
 
-#massage-arrow {
+#massage-arrow1 {
     align-self: end;
  }
  
@@ -34,7 +35,7 @@
     margin-bottom: 20px;
  }
 
-/* 2. ---Massage drop down---*/
+/*---Massage drop down---*/
 
 #massage-arrow1 {
    position: relative;
@@ -159,21 +160,29 @@
     transition: all .5s ease;
 } 
 
-#hand-foot-box-arrow3 input, #hand-foot-drop-down {
+#hand-foot-box-arrow3 input, #hand-foot-drop-down, #man-pol-img, #man-img, #man-pol, #man, #ped-pol-img, #ped-img, #ped-pol, #ped, #parrafin {
     display: none;
  }
  
- #hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {
-    display: block;
- }
- 
- #hand-foot-box-arrow3 input:checked ~ label img {
-    transform: rotate(90deg);
- }
+#hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped{display: block;}
+#hand-foot-box-arrow3 input:checked ~ #parrafin {display: block;}
 
-#hand-foot-drop-down {
+#hand-foot-box-arrow3 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+#hand-foot-drop-down, #man-pol-img, #man-img, #man-pol, #man, #ped-pol-img, #ped-img, #ped-pol, #ped, #parrafin {
    font-size: 14px;
-   padding-top: 15px;
+   padding-top: 0px;
+   text-align:center;
 }
 
 /*---Scrubs wraps & Facials---*/
@@ -211,21 +220,37 @@
     transition: all .5s ease;
 } 
 
-#scrub-wrap-box-arrow4 input, #scrub-wrap-drop-down {
+#scrub-wrap-box-arrow4 input, #avocado-img, #avocado-label, #avocado-info, #face-brush-img, #face-brush-label, #face-brush-info, #facial-content-img, #facial-content-label, #facial-content-info {
     display: none;
- }
- 
- #scrub-wrap-box-arrow4 input:checked ~ #scrub-wrap-drop-down {
-    display: block;
- }
- 
- #scrub-wrap-box-arrow4 input:checked ~ label img {
-    transform: rotate(90deg);
- }
+}
 
-#scrub-wrap-drop-down {
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-img {display: block; padding-top:20px;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-info {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-img {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-info {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-img {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-info {display: block;}
+
+#scrub-wrap-box-arrow4 input:checked ~ label img {
+    transform: rotate(90deg);
+}
+
+#avocado-info, #face-brush-info, #facial-content-info {
    font-size: 14px;
-   padding-top: 15px;
+   text-align: center;
+   position: relative;
+   bottom: 30px;
+}
+
+#avocado-label, #face-brush-label, #facial-content-label {
+   background-color: white;
+   position: relative;
+   font-size: 14px;
+   bottom: 50px;
+   padding: 10px 0px 10px 0px;
 }
 
 /*---Waxing Services---*/
@@ -278,6 +303,7 @@
 #wax-box-drop-down {
    font-size: 14px;
    padding-top: 15px;
+   text-align: center;
 }
 
 /*---Algonquin Spa Features---*/
@@ -330,6 +356,7 @@
 #features-box-drop-down {
    font-size: 14px;
    padding-top: 15px;
+   text-align: center;
 }
 
 /*---Spa Products---*/
@@ -381,6 +408,7 @@
 #products-box-drop-down {
    font-size: 14px;
    padding-top: 15px;
+   text-align: center;
 }
 
 /*---Policies---*/
@@ -432,4 +460,15 @@
 #policy-box-drop-down {
    font-size: 14px;
    padding-top: 15px;
+   text-align: center;
+}
+
+ /*---book now button---*/
+
+ #footer-book-button {
+   margin-top: 20px;
+}
+
+#book-now-footer {
+  height: 67px;
 }
