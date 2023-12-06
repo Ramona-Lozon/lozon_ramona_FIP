@@ -58,25 +58,47 @@
     transition: all .5s ease;
 } 
 
-#drinks-arrow1 input, #drinks-drop-down {
+#drinks-arrow1 input, #drinks-menu-title, #daquiri-label, #daquiri-img, #daquiri-info, #wine-label, #wine-img, #wine-white, #wine-red, #wine-rose, #beer-label, #beer-img, #beer-craft, #beer-cider, #beer-canada {
     display: none;
  }
  
- #drinks-arrow1 input:checked ~ #drinks-drop-down {
-    display: block;
- }
-
+#drinks-arrow1 input:checked ~ #drinks-menu-title {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-label {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-img {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-info {display: block;}
+#drinks-arrow1 input:checked ~ #wine-label {display: block;}
+#drinks-arrow1 input:checked ~ #wine-img {display: block;}
+#drinks-arrow1 input:checked ~ #wine-white {display: block;}
+#drinks-arrow1 input:checked ~ #wine-red {display: block;}
+#drinks-arrow1 input:checked ~ #wine-rose {display: block;}
+#drinks-arrow1 input:checked ~ #beer-label {display: block;}
+#drinks-arrow1 input:checked ~ #beer-img {display: block;}
+#drinks-arrow1 input:checked ~ #beer-craft {display: block;}
+#drinks-arrow1 input:checked ~ #beer-cider {display: block;}
+#drinks-arrow1 input:checked ~ #beer-canada {display: block;}
 
  #drinks-arrow1 input:checked ~ label img {
     transform: rotate(90deg);
  }
 
-#drinks-drop-down {
+ #daquiri-label, #wine-label, #beer-label {
+   background-color: white;
+   position: relative;
+   font-size: 14px;
+   top: 35px;
+   padding: 10px 0px 10px 0px;
+}
+
+ #drinks-menu-title, #daquiri-label, #daquiri-img, #daquiri-info, #wine-label, #wine-img, #wine-white, #wine-red, #wine-rose, #beer-label, #beer-img, #beer-craft, #beer-cider, #beer-canada {
    font-size: 14px;
    margin: 0px;
    background-color: white;
    color: black;
    text-align: center;
+}
+
+#wine-label {
+   left: 55px;
 }
 
  /*---Features---*/
@@ -124,6 +146,7 @@
     display: none;
  }
  
+
  #features-arrow2 input:checked ~ #features-drop-down {
     display: block;
  }
