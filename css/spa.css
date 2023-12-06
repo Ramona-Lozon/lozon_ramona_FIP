@@ -462,3 +462,13 @@
    padding-top: 15px;
    text-align: center;
 }
+
+ /*---book now button---*/
+
+ #footer-book-button {
+   margin-top: 20px;
+}
+
+#book-now-footer {
+  height: 67px;
+}
