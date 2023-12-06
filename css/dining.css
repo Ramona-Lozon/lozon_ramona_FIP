@@ -40,7 +40,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -49,7 +48,7 @@
 
 #drinks-arrow1 {
    padding-top: 10px;
-   margin: 0px 10px 0px 10px;
+   margin: 10px 0px 10px 0px;
 }
 
 #drinks-arrow1 label img {
@@ -77,6 +76,7 @@
    margin: 0px;
    background-color: white;
    color: black;
+   text-align: center;
 }
 
  /*---Features---*/
@@ -102,7 +102,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -111,7 +110,7 @@
 
 #features-arrow2 {
    padding-top: 10px;
-   margin: 0px 10px 0px 10px;
+   margin: 10px 0px 10px 0px;
 }
 
 #features-arrow2 label img {
@@ -139,6 +138,7 @@
    margin: 0px;
    background-color: white;
    color: black;
+   text-align: center;
 }
 
  /*---Breakfast---*/
@@ -164,7 +164,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -173,7 +172,8 @@
 
 #breakfast-arrow3 {
    padding-top: 10px;
-   margin: 0px 10px 0px 10px;
+   width: 412px;
+   margin: 10px 0px 10px 0px;
 }
 
 #breakfast-arrow3 label img {
@@ -188,7 +188,7 @@
  }
  
  #breakfast-arrow3 input:checked ~ #breakfast-drop-down {
-    display: block;
+    display: grid;
  }
 
 
@@ -199,8 +199,11 @@
 #breakfast-drop-down {
    font-size: 14px;
    margin: 0px;
+   width:412px;
    background-color: white;
    color: black;
+   text-align:center;
+   width:auto;
 }
 
  /*---Lunch---*/
@@ -226,7 +229,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -235,7 +237,7 @@
 
 #lunch-arrow4 {
    padding-top: 10px;
-   margin: 0px 10px 0px 10px;
+   margin: 10px 0px 10px 0px;
 }
 
 #lunch-arrow4 label img {
@@ -263,6 +265,7 @@
    margin: 0px;
    background-color: white;
    color: black;
+   text-align: center;
 }
 
  /*---Dinner---*/
@@ -288,7 +291,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -297,7 +299,7 @@
 
 #starters-arrow5 {
    padding-top: 10px;
-   margin: 0px 10px 0px 10px;
+   margin: 10px 0px 10px 0px;
 }
 
 #starters-arrow5 label img {
@@ -325,6 +327,7 @@
    margin: 0px;
    background-color: white;
    color: black;
+   text-align: center;
 }
 
 /*---Entrees drop down---*/
@@ -333,7 +336,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -342,7 +344,7 @@
 
 #entrees-arrow6 {
     padding-top: 10px;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
  }
  
  #entrees-arrow6 label img {
@@ -370,6 +372,7 @@
     margin: 0px;
     background-color: white;
     color: black;
+    text-align:center;
  }
 
  /*---Desserts drop down---*/
@@ -378,7 +381,6 @@
     background-color:#9A2018;
     color: white;
     padding: 10px 0px 10px 0px;
-    justify-content: center;
     font-size: 14px;
    font-weight: bold;
    align-self: end;
@@ -387,7 +389,7 @@
 
 #desserts-arrow7 {
     padding-top: 10px;
-    margin: 0px 10px 0px 10px;
+    margin: 10px 0px 10px 0px;
  }
  
  #desserts-arrow7 label img {
@@ -415,6 +417,7 @@
     margin: 0px;
     background-color: white;
     color: black;
+    text-align:center;
  }
 
  /*---book now button---*/
