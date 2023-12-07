@@ -141,12 +141,12 @@ input, textarea {
 .hero-img-h2, .hero-img-h3 {
    background: rgb(255, 255, 255);
    padding: 10px 15px;
-   font-size: 14px;
+   font-size: 16px;
 }
 
 .hero-img-h2 span,  .hero-img-h3 span {
    color: #9a2018;
-   font-size: 12px;
+   font-size: 16px;
 }
 
 .line-separator {
@@ -431,4 +431,1017 @@ input, textarea {
    margin-bottom: 20px;
    line-height: 18px;
    font-size: 11px;
+}
+
+/*--spa page---*/
+
+
+/*---hero image---*/
+
+#spa_hero {
+   background: url(../images/spa_hero.jpg) no-repeat;
+   height: 200px;
+}
+
+#spa_hero-heading-box {
+   align-self: end;
+}
+
+#spa-hero-line p {
+   font-size: 16px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+/*---Massage therapy---*/
+
+#massage-therapy {
+   background: url(../images/massage_therapy_mobile.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#massage-arrow1 {
+   align-self: end;
+}
+
+#massage-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+/*---Massage drop down---*/
+
+#massage-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#massage-arrow1 {
+   position: relative;
+   background-color: white;
+   bottom: 30px;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
+}
+
+#massage-arrow1 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#massage-arrow1 input, #massage-drop-down {
+   display: none;
+}
+
+#massage-arrow1 input:checked ~ #massage-drop-down {
+   display: block;
+}
+
+#massage-arrow1 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#massage-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+  font-weight: normal;
+}
+
+/*---Hot stones---*/
+
+#hot-stones {
+   background: url(../images/hot_stones_mobile.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#hot-stones-box {
+   align-self: end;
+}
+
+#hot-stones-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*--hot stones drop down--*/
+#hot-stones-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#hot-stones-box-arrow2 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#hot-stones-box-arrow2 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#hot-stones-box-arrow2 input, #hot-stones-drop-down {
+   display: none;
+}
+
+#hot-stones-box-arrow2 input:checked ~ #hot-stones-drop-down {
+   display: block;
+}
+
+#hot-stones-box-arrow2 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#hot-stones-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+}
+
+/*---hand and foot treatments---*/
+
+#hand-foot {
+   background: url(../images/hand_foot_treatments_mobile.jpg) no-repeat;
+   min-height: 200px;
+   height: auto;
+}
+
+#hand-foot-box {
+   align-self: end;
+}
+
+#hand-foot-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*--hand/foot drop down--*/
+#hand-foot-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#hand-foot-box-arrow3 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#hand-foot-box-arrow3 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#hand-foot-box-arrow3 input, #hand-foot-drop-down, #man-pol-img, #man-img, #man-pol, #man, #ped-pol-img, #ped-img, #ped-pol, #ped, #parrafin {
+   display: none;
+}
+
+#hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #man {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-img {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #ped{display: block;}
+#hand-foot-box-arrow3 input:checked ~ #parrafin {display: block;}
+
+#hand-foot-box-arrow3 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#hand-foot-drop-down, #man-pol-img, #man-img, #man-pol, #man, #ped-pol-img, #ped-img, #ped-pol, #ped, #parrafin {
+  font-size: 14px;
+  padding-top: 0px;
+  text-align:center;
+}
+
+/*---Scrubs wraps & Facials---*/
+
+#scrub-wrap {
+   background: url(../images/scrubs_wraps_facials_hero_mobile.jpg) no-repeat;
+   height: 200px;
+}
+
+#scrub-wrap-box {
+   align-self: end;
+}
+
+#scrub-wrap-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*--Scrubs wraps & Facials drop down--*/
+#scrub-wrap-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#scrub-wrap-box-arrow4 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#scrub-wrap-box-arrow4 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#scrub-wrap-box-arrow4 input, #avocado-img, #avocado-label, #avocado-info, #face-brush-img, #face-brush-label, #face-brush-info, #facial-content-img, #facial-content-label, #facial-content-info {
+   display: none;
+}
+
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-img {display: block; padding-top:20px;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-info {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-img {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-info {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-img {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-label {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-info {display: block;}
+
+#scrub-wrap-box-arrow4 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#avocado-info, #face-brush-info, #facial-content-info {
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+#avocado-label, #face-brush-label, #facial-content-label {
+  background-color: white;
+  position: relative;
+  font-size: 14px;
+  bottom: 50px;
+  padding: 10px 0px 10px 0px;
+}
+
+/*---Waxing Services---*/
+
+#wax {
+   background: url(../images/waxing_services_mobile.jpg) no-repeat;
+   height: 200px;
+}
+
+#wax-box {
+   align-self: end;
+}
+
+#wax-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*--Waxing Services drop down--*/
+#wax-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#wax-box-arrow5 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#wax-box-arrow5 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#wax-box-arrow5 input, #wax-box-drop-down {
+   display: none;
+}
+
+#wax-box-arrow5 input:checked ~ #wax-box-drop-down {
+   display: block;
+}
+
+#wax-box-arrow5 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#wax-box-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/*---Algonquin Spa Features---*/
+
+#features {
+   background: url(../images/spa_features_mobile.jpg) no-repeat;
+   height: 200px;
+}
+
+#features-box {
+   align-self: end;
+}
+
+#features-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*--Spa Features drop down--*/
+#features-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#features-box-arrow6 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#features-box-arrow6 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#features-box-arrow6 input, #features-box-drop-down {
+   display: none;
+}
+
+#features-box-arrow6 input:checked ~ #features-box-drop-down {
+   display: block;
+}
+
+#features-box-arrow6 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#features-box-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/*---Spa Products---*/
+
+#products {
+   background: url(../images/products_mobile.jpg) no-repeat;
+   height: 200px;
+}
+
+#products-box {
+   align-self: end;
+}
+
+#products-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+/*--Spa Products drop down--*/
+#products-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+#products-box-arrow7 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#products-box-arrow7 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#products-box-arrow7 input, #products-box-drop-down {
+   display: none;
+}
+
+#products-box-arrow7 input:checked ~ #products-box-drop-down {
+   display: block;
+}
+
+#products-box-arrow7 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#products-box-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/*---Policies---*/
+
+#policy {
+   background: url(../images/policies_mobile.jpg) no-repeat;
+   height: 200px;
+}
+
+#policy-box {
+   align-self: end;
+}
+
+#policy-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+ /*--Policies drop down--*/
+#policy-button {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+ #policy-box-arrow8 {
+  position: relative;
+  background-color: white;
+  bottom: 30px;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
+}
+
+#policy-box-arrow8 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#policy-box-arrow8 input, #policy-box-drop-down {
+   display: none;
+}
+
+#policy-box-arrow8 input:checked ~ #policy-box-drop-down {
+   display: block;
+}
+
+#policy-box-arrow8 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#policy-box-drop-down {
+  font-size: 14px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+/*---dining---*/
+
+/*---hero image---*/
+
+#dining-hero {
+   background: url(../images/dining_hero.jpg) no-repeat;
+   height: auto;
+   min-height:200px;
+}
+
+#dining-hero-heading-box {
+   align-self: end;
+}
+
+#dining-hero-intro {
+   background-color: white;
+   padding: 10px 15px 10px 15px;
+   
+}
+
+#dining-hero-line p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+
+/*---drinks menu---*/
+
+#drinks-menu {
+   background: url(../images/wine.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#drinks-menu-intro {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 150px;
+   position: relative;
+   top: 150px;
+}
+
+#drinks-menu-intro h2 {
+   font-size: 16px;
+}
+
+/*---Drinks Menu drop down---*/
+
+#drinks-arrow1 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#drinks-arrow1 {
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+#drinks-arrow1 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#drinks-arrow1 input, #drinks-menu-title, #daquiri-label, #daquiri-img, #daquiri-info, #wine-label, #wine-img, #wine-white, #wine-red, #wine-rose, #beer-label, #beer-img, #beer-craft, #beer-cider, #beer-canada {
+   display: none;
+}
+
+#drinks-arrow1 input:checked ~ #drinks-menu-title {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-label {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-img {display: block;}
+#drinks-arrow1 input:checked ~ #daquiri-info {display: block;}
+#drinks-arrow1 input:checked ~ #wine-label {display: block;}
+#drinks-arrow1 input:checked ~ #wine-img {display: block;}
+#drinks-arrow1 input:checked ~ #wine-white {display: block;}
+#drinks-arrow1 input:checked ~ #wine-red {display: block;}
+#drinks-arrow1 input:checked ~ #wine-rose {display: block;}
+#drinks-arrow1 input:checked ~ #beer-label {display: block;}
+#drinks-arrow1 input:checked ~ #beer-img {display: block;}
+#drinks-arrow1 input:checked ~ #beer-craft {display: block;}
+#drinks-arrow1 input:checked ~ #beer-cider {display: block;}
+#drinks-arrow1 input:checked ~ #beer-canada {display: block;}
+
+#drinks-arrow1 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#daquiri-label, #wine-label, #beer-label {
+  background-color: white;
+  position: relative;
+  font-size: 14px;
+  top: 35px;
+  padding: 10px 0px 10px 0px;
+}
+
+#drinks-menu-title, #daquiri-label, #daquiri-img, #daquiri-info, #wine-label, #wine-img, #wine-white, #wine-red, #wine-rose, #beer-label, #beer-img, #beer-craft, #beer-cider, #beer-canada {
+  font-size: 14px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+#wine-label {
+  left: 55px;
+}
+
+/*---Features---*/
+
+#features {
+   background: url(../images/chef-ronnie.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#features-intro {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 150px;
+   position: relative;
+   top: 150px;
+
+}
+
+#features-intro h2 {
+   font-size: 16px;
+}
+
+/*---Features drop down---*/
+
+#features-arrow2 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#features-arrow2 {
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+#features-arrow2 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#features-arrow2 input, #features-drop-down {
+   display: none;
+}
+
+
+#features-arrow2 input:checked ~ #features-drop-down {
+   display: block;
+}
+
+
+#features-arrow2 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#features-drop-down {
+  font-size: 14px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/*---Breakfast---*/
+
+#breakfast {
+   background: url(../images/breakfast_in_bed.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#breakfast-intro {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 150px;
+   position: relative;
+   top: 150px;
+
+}
+
+#breakfast-intro h2 {
+   font-size: 16px;
+}
+
+/*---Breakfast drop down---*/
+
+#breakfast-arrow3 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#breakfast-arrow3 {
+  padding-top: 10px;
+  width: 412px;
+  margin: 10px 0px 10px 0px;
+}
+
+#breakfast-arrow3 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#breakfast-arrow3 input, #breakfast-drop-down, #beverages, #food, #breakfast-menu {
+   display: none;
+}
+
+#breakfast-arrow3 input:checked ~ #breakfast-drop-down {
+   display: block;
+}
+
+#breakfast-arrow3 input:checked ~ #beverages {
+  display: block;
+}
+#breakfast-arrow3 input:checked ~ #food {
+  display: block;
+}
+
+#breakfast-arrow3 input:checked ~ #breakfast-menu {
+ display: block;
+}
+
+#breakfast-arrow3 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#breakfast-drop-down, #beverages, #food, #breakfast-menu  {
+  font-size: 14px;
+  margin: 0px;
+  width:412px;
+  background-color: white;
+  color: black;
+  text-align:center;
+  width:auto;
+}
+
+/*---Lunch---*/
+
+#lunch {
+   background: url(../images/lunch.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#lunch-intro {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 150px;
+   position: relative;
+   top: 150px;
+
+}
+
+#lunch-intro h2 {
+   font-size: 16px;
+}
+
+/*---Lunch drop down---*/
+
+#lunch-arrow4 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#lunch-arrow4 {
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+#lunch-arrow4 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#lunch-arrow4 input, #lunch-drop-down {
+   display: none;
+}
+
+#lunch-arrow4 input:checked ~ #lunch-drop-down {
+   display: block;
+}
+
+
+#lunch-arrow4 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#lunch-drop-down {
+  font-size: 14px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/*---Dinner---*/
+
+#dinner {
+   background: url(../images/dining.jpg) no-repeat;
+   height: auto;
+   min-height: 200px;
+}
+
+#dinner-intro {
+   background-color: white;
+   padding: 10px;
+   margin-bottom: 150px;
+   position: relative;
+   top: 150px;
+   font-size: 14px;
+}
+
+#dinner-intro h2 {
+   font-size: 16px;
+}
+
+/*---Starters drop down---*/
+
+#starters-arrow5 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#starters-arrow5 {
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px;
+}
+
+#starters-arrow5 label img {
+   width: 10px;
+   height: 10px;
+   cursor: pointer;
+   transition: all .5s ease;
+} 
+
+#starters-arrow5 input, #starters-drop-down {
+   display: none;
+}
+
+#starters-arrow5 input:checked ~ #starters-drop-down {
+   display: block;
+}
+
+
+#starters-arrow5 input:checked ~ label img {
+   transform: rotate(90deg);
+}
+
+#starters-drop-down {
+  font-size: 14px;
+  margin: 0px;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+/*---Entrees drop down---*/
+
+#entrees-arrow6 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#entrees-arrow6 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#entrees-arrow6 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#entrees-arrow6 input, #entrees-drop-down {
+    display: none;
+ }
+ 
+ #entrees-arrow6 input:checked ~ #entrees-drop-down {
+    display: block;
+ }
+
+
+ #entrees-arrow6 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#entrees-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align:center;
+}
+
+/*---Desserts drop down---*/
+
+#desserts-arrow7 label {
+   background-color:#9A2018;
+   color: white;
+   padding: 10px 0px 10px 0px;
+   font-size: 14px;
+  font-weight: bold;
+  align-self: end;
+  text-align: center;
+}
+
+#desserts-arrow7 {
+   padding-top: 10px;
+   margin: 10px 0px 10px 0px;
+}
+
+#desserts-arrow7 label img {
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    transition: all .5s ease;
+} 
+
+#desserts-arrow7 input, #desserts-drop-down {
+    display: none;
+ }
+ 
+ #desserts-arrow7 input:checked ~ #desserts-drop-down {
+    display: block;
+ }
+
+
+ #desserts-arrow7 input:checked ~ label img {
+    transform: rotate(90deg);
+ }
+
+#desserts-drop-down {
+   font-size: 14px;
+   margin: 0px;
+   background-color: white;
+   color: black;
+   text-align:center;
+}
+
+/*---footer book now buttons---*/
+
+#footer-book-button {
+   background: url(../images/hero-main.jpg) no-repeat;
+   padding: 20px 0px 20px 0px;
+}
+
+#book-now-footer {
+height: 67px;
+width: 176px;
+font-family: 'Sanchez', 'Times New Roman', serif;
+}
+
+/*
+#book-now-footer::after {
+   content:"✅";
+}
+
+#checkmark {
+   opacity: 0;
+}*/
+
+/*working keyframe animation*/
+
+#footer-book-button input:hover + #checkmark {
+   animation-name: shake;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+   0% {transform: translateY(0);}
+   33% {transform: translateY(-10px);}
+   66% {transform: translateY(+20px);}
+   100% {transform: translateY(0);}
 }
