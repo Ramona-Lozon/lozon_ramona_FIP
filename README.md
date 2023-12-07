@@ -1,6 +1,5 @@
 # lozon_ramona_FIP
- My FIP for semester #1 of Interactive Media Design
-FIP - Final Integrated Project
+My FIP for semester #1 of Interactive Media Design
 
 Submission Checklist
 
