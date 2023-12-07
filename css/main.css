@@ -1417,18 +1417,31 @@ input, textarea {
 
 #book-now-footer {
 height: 67px;
-width: 176px
+width: 176px;
+font-family: 'Sanchez', 'Times New Roman', serif;
 }
 
-#book-now-footer:hover {
-   animation-name: blow-up;
-   animation-duration: 0.3s;
-   animation-iteration-count: 1;
+/*
+#book-now-footer::after {
+   content:"✅";
+}
+
+#checkmark {
+   opacity: 0;
+}*/
+
+/*working keyframe animation*/
+
+#footer-book-button input:hover + #checkmark {
+   animation-name: shake;
+   animation-duration: 1s;
    animation-timing-function: ease-in-out;
+   animation-iteration-count: infinite;
 }
 
-@keyframes blow-up {
-   0% {transform: scale(100%);}
-   100% {transform: scale(110%);}
-   0% {transform: scale(100%);}
+@keyframes shake {
+   0% {transform: translateY(0);}
+   33% {transform: translateY(-10px);}
+   66% {transform: translateY(+20px);}
+   100% {transform: translateY(0);}
 }
