@@ -926,16 +926,6 @@ input, textarea {
   text-align: center;
 }
 
-/*---book now button---*/
-
-#footer-book-button {
-  margin-top: 20px;
-}
-
-#book-now-footer {
- height: 67px;
-}
-
 /*---dining---*/
 
 /*---hero image---*/
@@ -1053,7 +1043,7 @@ input, textarea {
 /*---Features---*/
 
 #features {
-   background: url(../images/baby_chef.jpg) no-repeat;
+   background: url(../images/chef-ronnie.jpg) no-repeat;
    height: auto;
    min-height: 200px;
 }
@@ -1418,18 +1408,27 @@ input, textarea {
    text-align:center;
 }
 
-/*---book now button---*/
+/*---footer book now buttons---*/
 
 #footer-book-button {
-   margin-top: 20px;
+   background: url(../images/hero-main.jpg) no-repeat;
+   padding: 20px 0px 20px 0px;
 }
 
 #book-now-footer {
-  height: 67px;
-  font-family: 'Sanchez', 'Times New Roman', serif;
+height: 67px;
+width: 176px
 }
 
-#book-now-footer:checked {
-  background-color: white;
+#book-now-footer:hover {
+   animation-name: blow-up;
+   animation-duration: 0.3s;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in-out;
+}
 
+@keyframes blow-up {
+   0% {transform: scale(100%);}
+   100% {transform: scale(110%);}
+   0% {transform: scale(100%);}
 }
