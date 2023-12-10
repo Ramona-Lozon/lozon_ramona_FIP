@@ -124,6 +124,11 @@ input, textarea {
    font-style: italic;
    transition:all 0.3s ease;
    cursor: pointer;
+   height: 67px;
+}
+
+.book-now h3 {
+   color: #fff;
 }
 
 .book-now:hover {
@@ -762,28 +767,28 @@ input, textarea {
 
 /*---Algonquin Spa Features---*/
 
-#features {
+#spa-features {
    background: url(../images/spa_features_mobile.jpg) no-repeat;
    height: 200px;
 }
 
-#features-box {
+#spa-features-box {
    align-self: end;
 }
 
-#features-line p {
+#spa-features-line p {
    font-size: 14px;
    line-height: 22px;
    margin-bottom: 20px;
 }
 
 /*--Spa Features drop down--*/
-#features-button {
+#spa-features-button {
    font-size: 16px;
    font-weight: bold;
 }
 
-#features-box-arrow6 {
+#spa-features-box-arrow6 {
   position: relative;
   background-color: white;
   bottom: 30px;
@@ -791,26 +796,26 @@ input, textarea {
   margin: 0px 10px 0px 10px;
 }
 
-#features-box-arrow6 label img {
+#spa-features-box-arrow6 label img {
    width: 10px;
    height: 10px;
    cursor: pointer;
    transition: all .5s ease;
 } 
 
-#features-box-arrow6 input, #features-box-drop-down {
+#spa-features-box-arrow6 input, #spa-features-box-drop-down {
    display: none;
 }
 
-#features-box-arrow6 input:checked ~ #features-box-drop-down {
+#spa-features-box-arrow6 input:checked ~ #spa-features-box-drop-down {
    display: block;
 }
 
-#features-box-arrow6 input:checked ~ label img {
+#spa-features-box-arrow6 input:checked ~ label img {
    transform: rotate(90deg);
 }
 
-#features-box-drop-down {
+#spa-features-box-drop-down {
   font-size: 14px;
   padding-top: 15px;
   text-align: center;
@@ -1410,17 +1415,18 @@ input, textarea {
 
 /*---footer book now buttons---*/
 
-#footer-book-button {
+#book-now-section {
    background: url(../images/hero-main.jpg) no-repeat;
    padding: 20px 0px 20px 0px;
 }
 
+/*
 #book-now-footer {
 height: 67px;
 width: 176px;
 font-family: 'Sanchez', 'Times New Roman', serif;
 }
-
+*/
 /*
 #book-now-footer::after {
    content:"✅";
@@ -1431,7 +1437,7 @@ font-family: 'Sanchez', 'Times New Roman', serif;
 }*/
 
 /*working keyframe animation*/
-
+/*
 #footer-book-button input:hover + #checkmark {
    animation-name: shake;
    animation-duration: 1s;
@@ -1444,4 +1450,92 @@ font-family: 'Sanchez', 'Times New Roman', serif;
    33% {transform: translateY(-10px);}
    66% {transform: translateY(+20px);}
    100% {transform: translateY(0);}
+}
+*/
+
+
+/*
+/*
+header li:last-of-type::after {
+    content: "\25bc";
+    padding-left: 4px;
+
+}
+
+input[type="checkbox"]:checked + span::after {
+content: "\2713";
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: green;
+border: 4px solid #20b320;
+position: absolute;
+top: 10px;
+right: 18px;
+font-size: 24px;
+animation: fadeIn 0.7s
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+*/
+
+/*lightboxes*/
+
+/*
+.sprite {
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/falloutsprites.jpg');
+}
+*/
+.lightbox {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.85);
+   Background-image: url(../images/-);
+   background-repeat: no-repeat;
+   background-size: 100vh;
+   background-position: 40px;
+   z-index: 1;
+   display: none;
+}
+
+.lightbox_close {
+   position: relative;
+   top: 20px;
+   left: 95%;
+   color: #FEF265;
+   font-size: 48px;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+.lightbox_close:hover {
+   opacity: 0.5;
+   color: #82A7D6;
+}
+
+.lightbox article {
+   width: 55%;
+   margin-left: 40%;
+   padding-top: 50px;
+}
+
+.lb text, .lb_heading {
+   text-align: left;
+}
+
+.lb_text {
+   margin-left: 0;
+   padding-top: 32px;
+   line-height: 1.6 !important;
+}
+
+.lightbox:target {
+   display: block;
 }
