@@ -483,14 +483,14 @@ input, textarea {
 #massage-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #massage-arrow1 {
    position: relative;
-   background-color: white;
    bottom: 30px;
-   padding: 5px 10px 5px 10px;
-   margin: 0px 10px 0px 10px;
 }
 
 #massage-arrow1 label img {
@@ -508,8 +508,18 @@ input, textarea {
    display: block;
 }
 
-#massage-arrow1 input:checked ~ label img {
+#arrow1:checked ~ label img {
    transform: rotate(90deg);
+}
+
+#arrow1:checked ~ #r-m-t::after {
+   content:"✅";
+   animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 #massage-drop-down {
@@ -540,14 +550,14 @@ input, textarea {
 #hot-stones-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #hot-stones-box-arrow2 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #hot-stones-box-arrow2 label img {
@@ -596,14 +606,15 @@ input, textarea {
 #hand-foot-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #hand-foot-box-arrow3 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+
 }
 
 #hand-foot-box-arrow3 label img {
@@ -659,14 +670,15 @@ input, textarea {
 #scrub-wrap-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #scrub-wrap-box-arrow4 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+  
 }
 
 #scrub-wrap-box-arrow4 label img {
@@ -730,14 +742,14 @@ input, textarea {
 #wax-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #wax-box-arrow5 {
-  position: relative;
-  background-color: white;
-  bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+   position: relative;
+   bottom: 30px;
 }
 
 #wax-box-arrow5 label img {
@@ -786,14 +798,14 @@ input, textarea {
 #spa-features-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #spa-features-box-arrow6 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #spa-features-box-arrow6 label img {
@@ -841,14 +853,14 @@ input, textarea {
 #products-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #products-box-arrow7 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #products-box-arrow7 label img {
@@ -896,14 +908,14 @@ input, textarea {
 #policy-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
  #policy-box-arrow8 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #policy-box-arrow8 label img {
@@ -1432,6 +1444,7 @@ input, textarea {
    background-repeat: no-repeat;
    background-size: 100vh;
    background-position: 40px;
+   margin: 20px 20px 20px 20px;
    z-index: 10;
    display: none;
 }
@@ -1450,7 +1463,7 @@ input, textarea {
    opacity: 0.5;
    color: #9a2018;
 }
-*/
+
 .lightbox_close:hover {
    opacity: 0.5;
    color: #9A2018;
@@ -1484,13 +1497,13 @@ input, textarea {
 #menu {
    background-color: #9A2018;
    padding: 20px;
-   width: 250px;
+   width: 382x;
    margin: 30px auto 30px auto;
    text-align: center;
 }
 
-
 /*
+
 #book-now-footer {
 height: 67px;
 width: 176px;
