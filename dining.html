@@ -43,23 +43,16 @@
         <main>
             <!-- Main Hero -->
 <section id="dining-hero" class="grid-con">
-    <h2 class="hidden">Book a stay with us</h2>                       
+    <h2 class="hidden">Book a stay with us</h2>
+                           
 
-        <div class="col-start-3 col-span-2"><a href="#spa-end"><span class="book-now">Book Now</span></div>
-        
-        <div class="lightbox" id="spa-end">
-            <h3 class="hidden">Book Now</h3>
-                <a href="" class="lightbox_close">x</a>
-                    <article>
-                        <h3 class="lb_heading">Book Now</h3>
-                                <p class="lb_text">Lightbox Information section 1</p>
-                        <p class="lb_text">lightbox information section 2</p>
-                    </article>
-        </div>
+    <!--Book Now-->
+        <div class="col-start-3 col-span-2"><a href="#dining">
+            <span class="book-now">Book Now</span></a></div>
 
-            <section id="dining-hero-heading-box" class="col-span-full">
-                <h2 class="hero-img-h2"><span>Couples Resort</span><br>Dining</h2>
-            </section>
+        <section id="dining-hero-heading-box" class="col-span-full">
+            <h2 class="hero-img-h2"><span>Couples Resort</span><br>Dining</h2>
+        </section>
     </section>
 
     <div id="dining-hero-intro" class="col-span-full"><p>5-star, classic 5-course gourmet dinner in our European style dining room or as room service brought to you. and classic style breakfast in-bed.
@@ -83,7 +76,7 @@
         </label>
 
 <!--drop down content-->
-<div id="drinks-menu-title" class="col-span-full"><br><p>30 min $96 * / 60 min $186 * / 90 min $276 *</p><br><h2>SEASONAL DRINK FEATURE (8OZ) $15</h2><br><p>PITCHER (32OZ) $45</p></div>
+<div id="drinks-menu-title" class="col-span-full"><br><p>30 min $96 * / 60 min $186 * / 90 min $276 *</p><br><p>SEASONAL DRINK FEATURE (8OZ) $15<br>PITCHER (32OZ) $45</p></div>
 <div id="daquiri-label" class="col-start-3 col-span-2"><p>Daiquiri</p></div>
 <div id="daquiri-img" class="col-span-full"><img src="images/daily_special.jpg" alt="a strawberry daquiry"></div>
 <div id="daquiri-info" class="col-span-full"><p>Strawberry, Raspberry, Peach, Pina Calada</p></div>
@@ -303,21 +296,37 @@
     </div>
     </section>
 
-    <!--Book Now-->
-    <section class="booking-box grid-con">
+<!--Book Now-->
 
-        <div class="col-start-2 col-span-2"><a href="#dining-end"><span class="book-now">Book Now</span></div>
-        
-        <div class="lightbox" id="dining-end">
-            <h3 class="hidden">Book Now</h3>
-                <a href="" class="lightbox_close">x</a>
-                    <article>
-                        <h3 class="lb_heading">Book Now</h3>
-                                <p class="lb_text">Lightbox Information section 1</p>
-                        <p class="lb_text">lightbox information section 2</p>
-                    </article>
-        </div>
-        </section>
+<section class="booking-box grid-con">
+
+    <div class="col-start-2 col-span-2"><a href="#dining"><span class="book-now">Book Now</span></a></div>
+    
+    <div class="lightbox" id="dining">
+        <h3 class="hidden">Book Now</h3>
+            <a href="" class="lightbox_close">x</a>
+                <article class="lightbox_content grid-con">
+                    <h3 class="hidden">Book Now sign up</h3>
+    
+                    <div id="menu" class="col-span-full">
+                        <p class="lb_heading">Book Now</p>
+                    <form method="post" action="#">
+                        <label for="first_name">First Name: </label>
+                            <input type="text" name="first_name" id="first_name">
+                                <br><br>
+                        <label for="last_name">Last Name: </label>
+                            <input type="text" name="last_name" id="last_name">
+                                <br><br>
+                        <label for="email">Email: </label> 
+                            <input type="text" name="email" id="email">
+                                <br><br>
+            
+                        <input id="send-button" type="submit" value="submit">
+                    </form>   
+                    </div>
+                </article>
+    </div>
+    </section>
             </main>
                 <!--Footer-->
                 <footer id="footer-hero" class="grid-con">        
