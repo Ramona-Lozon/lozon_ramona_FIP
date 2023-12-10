@@ -21,7 +21,7 @@ label:hover {
    display: grid;
    grid-template-columns: repeat(4, 73px);
    column-gap: 30px;
-   max-width: 412px;
+   max-width: 382px;
    margin: 0 auto;
    padding-left: 15px;
    padding-right: 15px;

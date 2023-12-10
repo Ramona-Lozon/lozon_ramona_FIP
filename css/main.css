@@ -124,6 +124,11 @@ input, textarea {
    font-style: italic;
    transition:all 0.3s ease;
    cursor: pointer;
+   height: 67px;
+}
+
+.book-now h3 {
+   color: #fff;
 }
 
 .book-now:hover {
@@ -478,14 +483,14 @@ input, textarea {
 #massage-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #massage-arrow1 {
    position: relative;
-   background-color: white;
    bottom: 30px;
-   padding: 5px 10px 5px 10px;
-   margin: 0px 10px 0px 10px;
 }
 
 #massage-arrow1 label img {
@@ -503,8 +508,18 @@ input, textarea {
    display: block;
 }
 
-#massage-arrow1 input:checked ~ label img {
+#arrow1:checked ~ label img {
    transform: rotate(90deg);
+}
+
+#arrow1:checked ~ #r-m-t::after {
+   content:"✅";
+   animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 #massage-drop-down {
@@ -535,14 +550,14 @@ input, textarea {
 #hot-stones-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #hot-stones-box-arrow2 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #hot-stones-box-arrow2 label img {
@@ -591,14 +606,15 @@ input, textarea {
 #hand-foot-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #hand-foot-box-arrow3 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+
 }
 
 #hand-foot-box-arrow3 label img {
@@ -654,14 +670,15 @@ input, textarea {
 #scrub-wrap-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #scrub-wrap-box-arrow4 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+  
 }
 
 #scrub-wrap-box-arrow4 label img {
@@ -725,14 +742,14 @@ input, textarea {
 #wax-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #wax-box-arrow5 {
-  position: relative;
-  background-color: white;
-  bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
+   position: relative;
+   bottom: 30px;
 }
 
 #wax-box-arrow5 label img {
@@ -762,55 +779,55 @@ input, textarea {
 
 /*---Algonquin Spa Features---*/
 
-#features {
+#spa-features {
    background: url(../images/spa_features_mobile.jpg) no-repeat;
    height: 200px;
 }
 
-#features-box {
+#spa-features-box {
    align-self: end;
 }
 
-#features-line p {
+#spa-features-line p {
    font-size: 14px;
    line-height: 22px;
    margin-bottom: 20px;
 }
 
 /*--Spa Features drop down--*/
-#features-button {
+#spa-features-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
-#features-box-arrow6 {
+#spa-features-box-arrow6 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
-#features-box-arrow6 label img {
+#spa-features-box-arrow6 label img {
    width: 10px;
    height: 10px;
    cursor: pointer;
    transition: all .5s ease;
 } 
 
-#features-box-arrow6 input, #features-box-drop-down {
+#spa-features-box-arrow6 input, #spa-features-box-drop-down {
    display: none;
 }
 
-#features-box-arrow6 input:checked ~ #features-box-drop-down {
+#spa-features-box-arrow6 input:checked ~ #spa-features-box-drop-down {
    display: block;
 }
 
-#features-box-arrow6 input:checked ~ label img {
+#spa-features-box-arrow6 input:checked ~ label img {
    transform: rotate(90deg);
 }
 
-#features-box-drop-down {
+#spa-features-box-drop-down {
   font-size: 14px;
   padding-top: 15px;
   text-align: center;
@@ -836,14 +853,14 @@ input, textarea {
 #products-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #products-box-arrow7 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #products-box-arrow7 label img {
@@ -891,14 +908,14 @@ input, textarea {
 #policy-button {
    font-size: 16px;
    font-weight: bold;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
  #policy-box-arrow8 {
   position: relative;
-  background-color: white;
   bottom: 30px;
-  padding: 5px 10px 5px 10px;
-  margin: 0px 10px 0px 10px;
 }
 
 #policy-box-arrow8 label img {
@@ -1410,17 +1427,89 @@ input, textarea {
 
 /*---footer book now buttons---*/
 
-#footer-book-button {
+.booking-box {
    background: url(../images/hero-main.jpg) no-repeat;
    padding: 20px 0px 20px 0px;
 }
+
+/*lightboxes*/
+
+.lightbox {
+   width: 100vw;
+   height: 100vh;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background-color: rgba(0, 0, 0, 0.75);
+   background-repeat: no-repeat;
+   background-size: 100vh;
+   background-position: 40px;
+   margin: 20px 20px 20px 20px;
+   z-index: 10;
+   display: none;
+}
+
+.lightbox_close {
+   position: relative;
+   top: 20px;
+   left: 95%;
+   color: #fff;
+   font-size: 48px;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+.lightbox_close:hover {
+   opacity: 0.5;
+   color: #9a2018;
+}
+
+.lightbox_close:hover {
+   opacity: 0.5;
+   color: #9A2018;
+}
+
+.lightbox article {
+   width: 55%;
+   margin-left: 40%;
+   padding-top: 50px;
+}
+
+.lb text, .lb_heading {
+   text-align: left;
+}
+
+.lb_text {
+   margin-left: 0;
+   padding-top: 32px;
+   line-height: 1.6;
+}
+
+.lightbox:target {
+   display: block;
+}
+
+#spa-end {
+   background-size: 50vh;
+   background-position: 80px;
+
+}
+#menu {
+   background-color: #9A2018;
+   padding: 20px;
+   width: 382x;
+   margin: 30px auto 30px auto;
+   text-align: center;
+}
+
+/*
 
 #book-now-footer {
 height: 67px;
 width: 176px;
 font-family: 'Sanchez', 'Times New Roman', serif;
 }
-
+*/
 /*
 #book-now-footer::after {
    content:"✅";
@@ -1431,7 +1520,7 @@ font-family: 'Sanchez', 'Times New Roman', serif;
 }*/
 
 /*working keyframe animation*/
-
+/*
 #footer-book-button input:hover + #checkmark {
    animation-name: shake;
    animation-duration: 1s;
@@ -1445,3 +1534,32 @@ font-family: 'Sanchez', 'Times New Roman', serif;
    66% {transform: translateY(+20px);}
    100% {transform: translateY(0);}
 }
+*/
+
+
+/*
+/*
+header li:last-of-type::after {
+    content: "\25bc";
+    padding-left: 4px;
+
+}
+
+input[type="checkbox"]:checked + span::after {
+content: "\2713";
+width: 25px;
+height: 25px;
+border-radius: 50%;
+background-color: green;
+border: 4px solid #20b320;
+position: absolute;
+top: 10px;
+right: 18px;
+font-size: 24px;
+animation: fadeIn 0.7s
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+*/
