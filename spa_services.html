@@ -342,6 +342,7 @@
 
                 <div id="menu" class="col-span-full">
                     <p class="lb_heading">Book Now</p>
+                    <br>
                 <form method="post" action="#">
                     <label for="first_name">First Name: </label>
                         <input type="text" name="first_name" id="first_name">
@@ -352,9 +353,11 @@
                     <label for="email">Email: </label> 
                         <input type="text" name="email" id="email">
                             <br>
-                    
+                    <div id="newsletter-box" class="grid-con">
                         <input type="checkbox" id="sign-up">
-                        <label for="sign-up">Sign up for our newsletter!</label>
+                            <label for="sign-up" class="col-start-2 col-span-2">
+                                <span id="signup">Sign up for our newsletter!</span></label>
+                    </div>
                             <br>
                     <input id="send-button" type="button" value="submit">
                 </form>   
