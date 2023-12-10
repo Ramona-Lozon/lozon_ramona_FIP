@@ -1415,7 +1415,7 @@ input, textarea {
 
 /*---footer book now buttons---*/
 
-#book-now-section {
+.booking-box {
    background: url(../images/hero-main.jpg) no-repeat;
    padding: 20px 0px 20px 0px;
 }
