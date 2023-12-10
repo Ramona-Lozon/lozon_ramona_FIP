@@ -1512,9 +1512,30 @@ input, textarea {
 
 }
 #menu {
-   background-color: #9A2018;
+   background-color: rgb(196, 28, 28);
    padding: 20px;
-   width: 382px;
+   width: 250px;
    margin: 30px auto 30px auto;
-   text-align: center;
+   text-align: left;
+}
+
+#send-button {
+   padding: 5px 10px 5px 10px;
+   background-color: #9A2018;
+   font-family: 'Sanchez', 'Times New Roman', serif;
+   color: #fff;
+}
+
+#send-button:hover {
+   background-color: #626262;
+}
+
+#signup {
+   color: white;
+   font-size: 14px;
+}
+
+#sign-up:checked + label::after {
+   content:"👍";
+   animation: fadeIn 1s;
 }

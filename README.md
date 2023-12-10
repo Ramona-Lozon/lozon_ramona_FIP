@@ -42,9 +42,9 @@ A Form must be used as one of the pages or as part of all of the pages.
 MMED-1054 (Multi-Media Authoring)
 The FIP requirements for Multi-Media Production are as follows:
 Students must use the ::after pseudo selector to add a graphic element indicating completion
-(check, thumbs up, etc) on one of the pages. 
-Students must create a simple CSS animation for a submit button on one of the pages. 
-Students must use workflow practices as outlined in class - branches, pull requests, merges etc. 
+(check, thumbs up, etc) on one of the pages.
+Students must create a simple CSS animation for a submit button on one of the pages.
+Students must use workflow practices as outlined in class - branches, pull requests, merges etc.
 Include a well-written Readme file as part of your final submission.
 Checklist
 
@@ -92,8 +92,8 @@ Valid CSS
 CSS Grid based layout
 Properly compressed and scaled images
 MMED-1054 (Multi-Media Authoring)
-Use the ::after pseudo selector to add a graphic element indicating completion 
+Use the ::after pseudo selector to add a graphic element indicating completion
 Create a simple CSS animation for a submit button
 Use GitHub workflow practices as outlined in class
-branches, pull requests, merges etc. 
+branches, pull requests, merges etc.
 Include a well-written Readme file as part of your final submission.
