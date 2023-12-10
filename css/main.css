@@ -46,6 +46,10 @@ input, textarea {
    color: #9a2018;
 }
 
+@keyframes fadeIn {
+   from {opacity: 0;}
+   to {opacity: 1;}
+}
 
 /* 2. ---Main Nav--- */
 
@@ -483,7 +487,6 @@ input, textarea {
 #massage-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -491,6 +494,9 @@ input, textarea {
 #massage-arrow1 {
    position: relative;
    bottom: 30px;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #massage-arrow1 label img {
@@ -512,20 +518,11 @@ input, textarea {
    transform: rotate(90deg);
 }
 
-#arrow1:checked ~ #r-m-t::after {
-   content:"✅";
-   animation: fadeIn 0.3s;
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}
-
 #massage-drop-down {
   font-size: 14px;
   padding-top: 15px;
   font-weight: normal;
+  animation: fadeIn 1s;
 }
 
 /*---Hot stones---*/
@@ -550,7 +547,6 @@ input, textarea {
 #hot-stones-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -558,6 +554,9 @@ input, textarea {
 #hot-stones-box-arrow2 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
 }
 
 #hot-stones-box-arrow2 label img {
@@ -582,6 +581,7 @@ input, textarea {
 #hot-stones-drop-down {
   font-size: 14px;
   padding-top: 15px;
+  animation: fadeIn 1s;
 }
 
 /*---hand and foot treatments---*/
@@ -606,7 +606,6 @@ input, textarea {
 #hand-foot-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -614,6 +613,9 @@ input, textarea {
 #hand-foot-box-arrow3 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
 
 }
 
@@ -628,16 +630,16 @@ input, textarea {
    display: none;
 }
 
-#hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #man-pol-img {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #man-img {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #man-pol {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #man {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #ped-pol-img {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #ped-img {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #ped-pol {display: block;}
-#hand-foot-box-arrow3 input:checked ~ #ped{display: block;}
-#hand-foot-box-arrow3 input:checked ~ #parrafin {display: block;}
+#hand-foot-box-arrow3 input:checked ~ #hand-foot-drop-down {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol-img {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #man-img {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #man-pol {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #man {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol-img {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #ped-img {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #ped-pol {display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #ped{display: block; animation: fadeIn 1s;}
+#hand-foot-box-arrow3 input:checked ~ #parrafin {display: block; animation: fadeIn 1s;}
 
 #hand-foot-box-arrow3 input:checked ~ label img {
    transform: rotate(90deg);
@@ -647,6 +649,7 @@ input, textarea {
   font-size: 14px;
   padding-top: 0px;
   text-align:center;
+  animation: fadeIn 1s;
 }
 
 /*---Scrubs wraps & Facials---*/
@@ -670,7 +673,6 @@ input, textarea {
 #scrub-wrap-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -678,6 +680,9 @@ input, textarea {
 #scrub-wrap-box-arrow4 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
   
 }
 
@@ -692,15 +697,15 @@ input, textarea {
    display: none;
 }
 
-#scrub-wrap-box-arrow4 input:checked ~ #avocado-img {display: block; padding-top:20px;}
-#scrub-wrap-box-arrow4 input:checked ~ #avocado-label {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #avocado-info {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #face-brush-img {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #face-brush-label {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #face-brush-info {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #facial-content-img {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #facial-content-label {display: block;}
-#scrub-wrap-box-arrow4 input:checked ~ #facial-content-info {display: block;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-img {display: block; padding-top:20px; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-label {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #avocado-info {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-img {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-label {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #face-brush-info {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-img {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-label {display: block; animation: fadeIn 1s;}
+#scrub-wrap-box-arrow4 input:checked ~ #facial-content-info {display: block; animation: fadeIn 1s;}
 
 #scrub-wrap-box-arrow4 input:checked ~ label img {
    transform: rotate(90deg);
@@ -742,7 +747,6 @@ input, textarea {
 #wax-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -750,6 +754,9 @@ input, textarea {
 #wax-box-arrow5 {
    position: relative;
    bottom: 30px;
+   background-color: white;
+   padding: 5px 10px 5px 10px;
+   margin: 0px 10px 0px 10px;
 }
 
 #wax-box-arrow5 label img {
@@ -765,6 +772,7 @@ input, textarea {
 
 #wax-box-arrow5 input:checked ~ #wax-box-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 #wax-box-arrow5 input:checked ~ label img {
@@ -798,7 +806,6 @@ input, textarea {
 #spa-features-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -806,6 +813,9 @@ input, textarea {
 #spa-features-box-arrow6 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
 }
 
 #spa-features-box-arrow6 label img {
@@ -821,6 +831,7 @@ input, textarea {
 
 #spa-features-box-arrow6 input:checked ~ #spa-features-box-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 #spa-features-box-arrow6 input:checked ~ label img {
@@ -853,7 +864,6 @@ input, textarea {
 #products-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -861,6 +871,9 @@ input, textarea {
 #products-box-arrow7 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
 }
 
 #products-box-arrow7 label img {
@@ -876,6 +889,7 @@ input, textarea {
 
 #products-box-arrow7 input:checked ~ #products-box-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 #products-box-arrow7 input:checked ~ label img {
@@ -908,7 +922,6 @@ input, textarea {
 #policy-button {
    font-size: 16px;
    font-weight: bold;
-   background-color: white;
    padding: 5px 10px 5px 10px;
    margin: 0px 10px 0px 10px;
 }
@@ -916,6 +929,9 @@ input, textarea {
  #policy-box-arrow8 {
   position: relative;
   bottom: 30px;
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  margin: 0px 10px 0px 10px;
 }
 
 #policy-box-arrow8 label img {
@@ -931,6 +947,7 @@ input, textarea {
 
 #policy-box-arrow8 input:checked ~ #policy-box-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 #policy-box-arrow8 input:checked ~ label img {
@@ -1018,20 +1035,20 @@ input, textarea {
    display: none;
 }
 
-#drinks-arrow1 input:checked ~ #drinks-menu-title {display: block;}
-#drinks-arrow1 input:checked ~ #daquiri-label {display: block;}
-#drinks-arrow1 input:checked ~ #daquiri-img {display: block;}
-#drinks-arrow1 input:checked ~ #daquiri-info {display: block;}
-#drinks-arrow1 input:checked ~ #wine-label {display: block;}
-#drinks-arrow1 input:checked ~ #wine-img {display: block;}
-#drinks-arrow1 input:checked ~ #wine-white {display: block;}
-#drinks-arrow1 input:checked ~ #wine-red {display: block;}
-#drinks-arrow1 input:checked ~ #wine-rose {display: block;}
-#drinks-arrow1 input:checked ~ #beer-label {display: block;}
-#drinks-arrow1 input:checked ~ #beer-img {display: block;}
-#drinks-arrow1 input:checked ~ #beer-craft {display: block;}
-#drinks-arrow1 input:checked ~ #beer-cider {display: block;}
-#drinks-arrow1 input:checked ~ #beer-canada {display: block;}
+#drinks-arrow1 input:checked ~ #drinks-menu-title {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #daquiri-label {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #daquiri-img {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #daquiri-info {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #wine-label {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #wine-img {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #wine-white {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #wine-red {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #wine-rose {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #beer-label {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #beer-img {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #beer-craft {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #beer-cider {display: block;animation: fadeIn 1s;}
+#drinks-arrow1 input:checked ~ #beer-canada {display: block;animation: fadeIn 1s;}
 
 #drinks-arrow1 input:checked ~ label img {
    transform: rotate(90deg);
@@ -1109,6 +1126,7 @@ input, textarea {
 
 #features-arrow2 input:checked ~ #features-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 
@@ -1176,18 +1194,12 @@ input, textarea {
 
 #breakfast-arrow3 input:checked ~ #breakfast-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
-#breakfast-arrow3 input:checked ~ #beverages {
-  display: block;
-}
-#breakfast-arrow3 input:checked ~ #food {
-  display: block;
-}
-
-#breakfast-arrow3 input:checked ~ #breakfast-menu {
- display: block;
-}
+#breakfast-arrow3 input:checked ~ #beverages {display: block;animation: fadeIn 1s;}
+#breakfast-arrow3 input:checked ~ #food {display: block;animation: fadeIn 1s;}
+#breakfast-arrow3 input:checked ~ #breakfast-menu {display: block;animation: fadeIn 1s;}
 
 #breakfast-arrow3 input:checked ~ label img {
    transform: rotate(90deg);
@@ -1254,6 +1266,7 @@ input, textarea {
 
 #lunch-arrow4 input:checked ~ #lunch-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 
@@ -1320,6 +1333,7 @@ input, textarea {
 
 #starters-arrow5 input:checked ~ #starters-drop-down {
    display: block;
+   animation: fadeIn 1s;
 }
 
 
@@ -1365,6 +1379,7 @@ input, textarea {
  
  #entrees-arrow6 input:checked ~ #entrees-drop-down {
     display: block;
+    animation: fadeIn 1s;
  }
 
 
@@ -1410,6 +1425,7 @@ input, textarea {
  
  #desserts-arrow7 input:checked ~ #desserts-drop-down {
     display: block;
+    animation: fadeIn 1s;
  }
 
 
@@ -1473,6 +1489,7 @@ input, textarea {
    width: 55%;
    margin-left: 40%;
    padding-top: 50px;
+   color: #fff;
 }
 
 .lb text, .lb_heading {
@@ -1489,7 +1506,7 @@ input, textarea {
    display: block;
 }
 
-#spa-end {
+#spa, #dining {
    background-size: 50vh;
    background-position: 80px;
 
@@ -1497,69 +1514,7 @@ input, textarea {
 #menu {
    background-color: #9A2018;
    padding: 20px;
-   width: 382x;
+   width: 382px;
    margin: 30px auto 30px auto;
    text-align: center;
 }
-
-/*
-
-#book-now-footer {
-height: 67px;
-width: 176px;
-font-family: 'Sanchez', 'Times New Roman', serif;
-}
-*/
-/*
-#book-now-footer::after {
-   content:"✅";
-}
-
-#checkmark {
-   opacity: 0;
-}*/
-
-/*working keyframe animation*/
-/*
-#footer-book-button input:hover + #checkmark {
-   animation-name: shake;
-   animation-duration: 1s;
-   animation-timing-function: ease-in-out;
-   animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-   0% {transform: translateY(0);}
-   33% {transform: translateY(-10px);}
-   66% {transform: translateY(+20px);}
-   100% {transform: translateY(0);}
-}
-*/
-
-
-/*
-/*
-header li:last-of-type::after {
-    content: "\25bc";
-    padding-left: 4px;
-
-}
-
-input[type="checkbox"]:checked + span::after {
-content: "\2713";
-width: 25px;
-height: 25px;
-border-radius: 50%;
-background-color: green;
-border: 4px solid #20b320;
-position: absolute;
-top: 10px;
-right: 18px;
-font-size: 24px;
-animation: fadeIn 0.7s
-}
-
-@keyframes fadeIn {
-    from {opacity:0;}
-    to {opacity:1;}
-*/
